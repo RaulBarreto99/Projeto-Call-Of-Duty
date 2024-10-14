@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 10em;
+    background-color: black;
+}
+
+header>section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 100%;
+    padding: 10px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+
+.menu{
+    background-image: url("https://thypix.com/wp-content/uploads/2020/04/white-arrow-5-700x368.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    align-self: flex-start;
+    transform: rotate(180deg);
+}
+
+header>section>h1 {
+    font-size: 5em;
+    color: white;
+}

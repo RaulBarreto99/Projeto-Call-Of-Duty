@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*Uma quebra de linha*/
+@media screen and (min-width: 780px) and (max-width: 1551px) {
+
+    .nav {
+        height: 100em;
+        top: 45px;
+    }
+    
+    .produtora{
+        height: 26%;        
+    }
+
+    .card{
+        height: 50%;       
+    }
+
+    .sledgehammer{
+        height: 13%;
+    }
+
+    .sledgehammer > .card{
+        height: 100%;
+    }
+
+    .activision{
+        height: 13%;
+    }
+
+    .activision > .card{
+        height: 100%;
+    }
+}
+
+/*Duas quebras de linha*/
+@media screen and (min-width: 610px) and (max-width: 779px) {
+
+    .nav {
+        height: 169em;
+        top: 30px;
+    }
+    
+    .produtora{
+        height: 26%;        
+    }
+
+    .card{
+        height: 33%;       
+    }
+
+    .sledgehammer{
+        height: 15.3%;
+    }
+
+    .sledgehammer > .card{
+        height: 50%;
+    }
+
+    .activision{
+        height: 7.6%;
+    }
+
+    .activision > .card{
+        height: 100%;
+    }
+}
+
+/*Tres quebras de linha*/
+@media screen and (max-width: 609px) {
+
+    .nav {
+        height: 169em;
+        top: 20px;
+    }
+    
+    .produtora{
+        height: 30.7%;        
+    }
+
+    .card{
+        height: 25%;       
+    }
+
+    .treyarch{
+        height: 23.3%;
+    }
+
+    .treyarch > .card{
+        height: 33%;
+    }
+
+    .sledgehammer{
+        height: 15.4%;
+    }
+
+    .sledgehammer > .card{
+        height: 50%;
+    }
+
+    .activision{
+        height: 15.4%;
+    }
+
+    .activision > .card{
+        height: 50%;
+    }
+}

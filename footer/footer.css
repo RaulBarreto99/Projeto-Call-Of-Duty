@@ -1,0 +1,123 @@
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 18em;
+}
+
+.firstFooter {
+    background-color: #2e2e2e;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    height: 100%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-top: 20px;
+}
+
+.firstFooter > .divFooter{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 860px;
+    height: 100%;
+}
+
+.divMore{
+    width: 40%;
+    height: 90%;
+    padding-right: 30px;
+}
+
+.divMore > p{
+    color: #c1c1c1;
+    font-family: math;
+    font-size: 12px;
+
+}
+
+.divSocial{
+    width: 30%;
+    height: 90%;
+    padding-right: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.divAlignSocial{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.divSocial > div > img, .divContact > div > img{
+    width: 22px;
+    height: 22px;
+    border-radius: 20px;
+}
+
+.divSocial > div > span, .divContact > div > span{
+    color: #c1c1c1;
+    margin-left: 5px;
+    font-family: math;
+    font-size: 12px;
+
+}
+
+.divContact{
+    width: 30%;
+    height: 90%;
+    padding-right: 30px;
+
+}
+
+.divContact > p{
+    color: #c1c1c1;
+    font-family: math;
+
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: math;
+}
+
+.secondFooter{
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 2.5em;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.secondFooter > div > span{
+    color: #c1c1c1;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.secondFooter > div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 860px;
+    height: 100%;
+}
