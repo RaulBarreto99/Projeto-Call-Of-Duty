@@ -14,11 +14,16 @@ menu.addEventListener("click", function () {
 
 document.getElementById('treyarch').addEventListener("click", function () {
 
-    window.location.href = `treyarchindex.html`;
+    window.location.href = `../treyarc/index.html`;
 });
 
 document.getElementById('bo2').addEventListener("click", function () {
 
-    window.location.href = `../bo2main/bo2main.html`;
+    window.location.href = `../bo2main/index.html`;
+});
+
+document.getElementById('bo3').addEventListener("click", function () {
+
+    window.location.href = `../bo3main/index.html`;
 });
 

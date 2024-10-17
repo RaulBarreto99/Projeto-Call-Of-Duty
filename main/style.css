@@ -120,6 +120,12 @@ main{
     cursor: pointer;
 }
 
+.card:hover{
+    width: 160px;
+    box-shadow: inset 0px 0px 20px white;
+
+}
+
 .prodLogo{
     box-shadow: 0px 0px 0px black;
     cursor: initial;
