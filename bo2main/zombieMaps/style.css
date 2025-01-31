@@ -11,6 +11,10 @@ body {
     background-color: black;
 }
 
+h1{
+    color: red !important;
+}
+
 main {
     display: flex;
     flex-flow: column nowrap;
